@@ -1,21 +1,3 @@
-# GCSlab
-Quickly estimate the directionality of a grating coupler using a homogenized-slab model. 
-
-## Prerequisites
-Before using GCSlab, the following python libraries must be installed:
-* numpy
-* Matplotlib
-
-Furthermore, currently gcslab only supports python3.
-
-## Example
-The following code snippet models a simple partially-etch silicon grating coupler. The
-grating coupler is defined by stacking up slabs of different refractive index. The
-etched region of the grating is assigned an average refractive index and a non-zero
-source amplitude. In this region, waves are injected and the total fraction of power
-leaving the top of the grating is estimated.
-
-```
 import gcslab
 import numpy as np
 from math import pi
@@ -50,6 +32,3 @@ grating.visualize_stack()
 directionality = grating.directionality(wavelength, angle)
 print(f'The directionality = {directionality}.')
 
-```
-
-This example can be found in the `example_gc.py`.
