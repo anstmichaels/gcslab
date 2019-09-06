@@ -3,6 +3,9 @@ from numpy import pi
 import matplotlib.pyplot as plt
 from matplotlib import rcParams
 
+__author__ = "Andrew Michaels"
+__license__ = "Apache License, Version 2.0"
+
 class GCSlabModel(object):
     
     def __init__(self):

@@ -53,3 +53,8 @@ print(f'The directionality = {directionality}.')
 ```
 
 This example can be found in the `example_gc.py`.
+
+# Citing this Code
+This code is based on the doctoral thesis titled "A Hierarchical Approach to the
+Design and Optimization of Photonics." If using this code in a publication,
+please reference the afformentioned work.
